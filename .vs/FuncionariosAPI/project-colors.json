@@ -5,6 +5,11 @@
       "ProjectGuid": "6b124dab-a71d-4b81-808c-44fc5cc3887a",
       "DisplayName": "FuncionariosAPI",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
