@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ajin\\Desktop\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj": {}
+    "C:\\Users\\RobsonMonteiro\\Downloads\\DEV\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ajin\\Desktop\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj": {
+    "C:\\Users\\RobsonMonteiro\\Downloads\\DEV\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ajin\\Desktop\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj",
+        "projectUniqueName": "C:\\Users\\RobsonMonteiro\\Downloads\\DEV\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj",
         "projectName": "FuncionariosAPI",
-        "projectPath": "C:\\Users\\Ajin\\Desktop\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj",
-        "packagesPath": "C:\\Users\\Ajin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ajin\\Desktop\\C#\\FuncionariosAPI\\FuncionariosAPI\\obj\\",
+        "projectPath": "C:\\Users\\RobsonMonteiro\\Downloads\\DEV\\C#\\FuncionariosAPI\\FuncionariosAPI\\FuncionariosAPI.csproj",
+        "packagesPath": "C:\\Users\\RobsonMonteiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RobsonMonteiro\\Downloads\\DEV\\C#\\FuncionariosAPI\\FuncionariosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ajin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RobsonMonteiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +69,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

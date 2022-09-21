@@ -34,6 +34,8 @@ namespace FuncionariosAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FuncionariosAPI", Version = "v1" });
             });
+
+            services.AddScoped<FuncionarioContext>();
             services.AddCors();
         }
 

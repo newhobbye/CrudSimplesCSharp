@@ -1,6 +1,7 @@
 ﻿using FuncionariosAPI.Data;
 using FuncionariosAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,6 +29,33 @@ namespace FuncionariosAPI.Controllers
             _funcionario.Funcionarios.Add(funcionario);
             _funcionario.SaveChanges();
             return CreatedAtAction(nameof(RecuperarFuncionario), new { CPF = funcionario.CPF }, funcionario);
+        }
+
+        [HttpPut("{cpf}")]
+
+        public IActionResult EditaFuncionario([FromBody]Funcionario funcionario, string cpf)
+        {
+            try
+            {
+                if (funcionario == null)
+                {
+                    return NotFound();
+                }
+
+                Funcionario func = _funcionario.Funcionarios.AsNoTracking().FirstOrDefault(x => x.CPF == cpf);
+
+                func = funcionario;
+
+               
+                _funcionario.Funcionarios.Update(func);
+                _funcionario.SaveChanges();
+                return CreatedAtAction(nameof(RecuperarFuncionario), new { CPF = func.CPF }, func);
+            }
+            catch (System.Exception e)
+            {
+                System.Console.WriteLine(e.Message);
+                return null;
+            }         
         }
 
         [HttpGet]
